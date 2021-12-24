@@ -1,0 +1,9 @@
+<h1>All Students</h1>
+{% for student in object_list %}
+  <ul>
+      <li>Name: {{student.name}}</li>
+      <li>Course: {{student.course}}</li>
+      <li>Period: {{student.period}}</li>
+      <li>Reg_no: {{student.reg_no}}</li>
+  </ul>
+{% endfor %}
